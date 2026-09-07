@@ -35,7 +35,7 @@ const SOCIAL_LINKS: readonly SocialLinkItem[] = [
 
 export function SocialLinks() {
   return (
-    <nav aria-label="Contatos e redes sociais" className="flex items-center justify-center gap-6">
+    <nav aria-label="Contatos e redes sociais" className="flex items-center justify-center gap-6 mt-1">
       {SOCIAL_LINKS.map((item) => {
         const Icon = item.icon;
         return (

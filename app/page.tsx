@@ -3,7 +3,7 @@ import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white px-4">
+    <main className="flex min-h-dvh flex-col items-center justify-center bg-white px-4 overscroll-none">
       <div className="flex flex-col items-center gap-6 text-center">
         <Image
           src="/assets/icon-red.svg"
@@ -23,5 +23,6 @@ export default function Home() {
     </main>
   );
 }
+
 
 
